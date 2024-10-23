@@ -1,0 +1,131 @@
+﻿@model IEnumerable<QLNS.Models.Luong>
+
+@{
+    ViewData["Title"] = "Lương";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css" />
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <p><a asp-action="Create" class="btn btn-success"><i class="fa-soild fa-plus"></i> Thêm mới</a></p>
+            </div>
+            <div class="col-md-6 text-end">
+                <div id="export-buttons">
+                    <button id="export-excel-btn" class="btn btn-primary"><i class="fa-solid fa-file-excel"></i> Xuất Excel</button>
+                </div>
+            </div>
+        </div>
+
+        <table id="datatable" class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr style="text-align:center;">
+                    <th width="5%" class="text-center">Stt</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.NhanVien)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.ThangID)</th>
+                    <th class="text-center">    @Html.DisplayNameFor(model => model.ThoiGianLamViec.SoNgayCong)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.LuongCoBanID)</th>
+
+
+                    <th class="text-center">   @Html.DisplayNameFor(model => model.TongThuNhap)</th>
+
+                    <th class="text-center">   @Html.DisplayNameFor(model => model.ChucVu)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.PhuCap)</th>
+
+               
+
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.NgayThanhToan)
+                    </th>
+                    <th width="5%" class="text-center">Xem</th>
+                    <th width="5%" class="text-center">Sửa</th>
+                    <th width="5%" class="text-center">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@stt</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.NhanVien.TenNhanVien)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ThangID)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ThoiGianLamViec.SoNgayCong)</td>
+                        <td class="text-center">@item.ChucVu.LuongCoBan.ToString("N0") VND</td>
+                        <td class="text-center">@item.TongThuNhap.ToString("N0") VND</td>
+
+
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ChucVu.TenChucVu)</td>
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.PhuCap.TenPhuCap)</td>
+
+                
+
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NgayThanhToan)
+                        </td>
+                        <td class="align-middle text-center"><a asp-action="Details" asp-route-id="@item.ID"><i class="fa-solid fa-eye"></i></a></td>
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@item.ID"><i class="fa-light fa-pen-to-square"></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@item.ID"><i class="fa-light fa-trash-can text-danger"></a></td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script>
+        var table = $('#datatable').DataTable({
+            language: {
+                processing: 'Đang xử lý...',
+                lengthMenu: 'Hiển thị _MENU_ dòng',
+                zeroRecords: 'Không tìm thấy dòng nào phù hợp',
+                info: 'Đang xem _START_ đến _END_ trong tổng số _TOTAL_ dòng',
+                infoEmpty: 'Đang xem 0 đến 0 trong tổng số 0 dòng',
+                emptyTable: 'Không có dữ liệu',
+                infoFiltered: '(được lọc từ _MAX_ dòng)',
+                infoPostFix: '',
+                search: 'Tìm kiếm:',
+                paginate: {
+                    first: '<i class="fa-duotone fa-arrow-left-to-line"></i>',
+                    last: '<i class="fa-duotone fa-arrow-right-to-line"></i>',
+                    next: '<i class="fa-duotone fa-arrow-right"></i>',
+                    previous: '<i class="fa-duotone fa-arrow-left"></i>'
+                },
+
+            },
+
+
+        });
+        table.buttons().container().appendTo('#export-buttons');
+        $('#export-buttons .btn').removeClass('btn-secondary').addClass('btn-info');
+        $('#datatable').wrap('<div class="table-responsive"></div>');
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#export-excel-btn').click(function () {
+                window.location.href = '@Url.Action("ExportLuongToExcel", "Luong")';
+            });
+        });
+    </script>
+
+
+
+
+}

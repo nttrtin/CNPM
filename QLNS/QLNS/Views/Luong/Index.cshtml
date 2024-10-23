@@ -1,0 +1,72 @@
+﻿@model IEnumerable<QLNS.Models.Luong>
+
+@{
+    ViewData["Title"] = "Lương";
+}
+<div class="card">
+    <h2 class="card-header text-center text-light bg-dark" style="font-weight: 500;font-family:none;">@ViewData["Title"]</h2>
+    <div class="card-body">
+
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%" class="text-center">Stt</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.NhanVien)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.ThangID)</th>
+                    <th class="text-center">    @Html.DisplayNameFor(model => model.ThoiGianLamViec.SoNgayCong)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.LuongCoBanID)</th>
+
+
+                    <th class="text-center">   @Html.DisplayNameFor(model => model.TongThuNhap)</th>
+
+                    <th class="text-center">   @Html.DisplayNameFor(model => model.ChucVu)</th>
+
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.KhoanTru)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.KhenThuong)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.PhuCap)</th>
+
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.TinhTrangLuong)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.PhuongThucThanhToan)</th>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.NgayThanhToan)
+                    </th>
+                    <th width="5%" class="text-center">Chi tiết</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@stt</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.NhanVien.TenNhanVien)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ThangID)</td>
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ThoiGianLamViec.SoNgayCong)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ChucVu.LuongCoBan)</td>
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.TinhTrangLuong)</td>
+
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.ChucVu.TenChucVu)</td>
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.KhoanTru.LyDoKhoanTru)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.KhenThuong.LyDoKhenThuong)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.PhuCap.TenPhuCap)</td>
+
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.TongThuNhap)</td>
+                        <td class="text-center">@Html.DisplayFor(modelItem => item.PhuongThucThanhToan)</td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NgayThanhToan)
+                        </td>
+                        <td class="align-middle text-center"><a asp-action="Details" asp-route-id="@item.ID"><i class="fa-solid fa-eye"></i></a></td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,146 @@
+﻿@model QLNS.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Thêm Người Dùng";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="NhanVienID" class="control-label"></label>
+                <select asp-for="NhanVienID" class="form-control" asp-items="ViewBag.NhanVienID"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="EmailID" class="control-label"></label>
+                <select asp-for="EmailID" class="form-control" asp-items="ViewBag.EmailID" ></select>
+            </div>
+          
+            <div class="mb-3">
+                <label asp-for="SDTID" class="control-label"></label>
+                <select asp-for="SDTID" class="form-control" asp-items="ViewBag.SDTID" ></select>
+                <span asp-validation-for="SDTID" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DiaChiID" class="control-label"></label>
+                <select asp-for="DiaChiID" class="form-control" asp-items="ViewBag.DiaChiID" ></select>
+                <span asp-validation-for="DiaChiID" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenDangNhap" class="control-label"></label>
+                <input asp-for="TenDangNhap" class="form-control" />
+                <span asp-validation-for="TenDangNhap" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MatKhau" class="control-label"></label>
+                <input asp-for="MatKhau" class="form-control" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="XacNhanMatKhau" class="control-label"></label>
+                <input asp-for="XacNhanMatKhau" class="form-control" />
+                <span asp-validation-for="XacNhanMatKhau" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Quyen" class="control-label"></label>
+                <select asp-for="Quyen" class="form-control">
+                    <option value="User">Nhân Viên</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Quanly">Quản Lý</option>
+                </select>
+                <span asp-validation-for="Quyen" class="text-danger"></span>
+            </div>
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Thêm mới</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script>
+            $(document).ready(function () {
+                $('#EmailID').on('mousedown', function (event) {
+                    event.preventDefault(); // Ngăn người dùng nhấp vào select
+                });
+                $('#SDTID').on('mousedown', function (event) {
+                    event.preventDefault(); // Ngăn người dùng nhấp vào select
+                });
+                $('#DiaChiID').on('mousedown', function (event) {
+                    event.preventDefault(); // Ngăn người dùng nhấp vào select
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/NguoiDung/GetEmail', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#EmailID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#EmailID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.email // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/NguoiDung/GetSDT', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#SDTID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#SDTID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.sdt // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                    $.ajax({
+                        url: '/Admin/NguoiDung/GetDiaChi', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#DiaChiID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#DiaChiID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.diachi // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+
+        </script>
+
+    }
+
+}

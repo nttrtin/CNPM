@@ -1,0 +1,155 @@
+﻿@model List<ThongKeThang>
+@{
+    ViewData["Title"] = "Thống kê";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css" />
+}
+@* <form id="exportForm" style="padding-top: 4%;padding-left: 3%; font-size: 16px;">
+    <label for="thang">Chọn tháng:</label>
+    <select name="thang" id="thang" style="margin-left: 10px;margin-right: 20px;">
+        <option value="1">Tháng 1</option>
+        <option value="2">Tháng 2</option>
+        <option value="3">Tháng 3</option>
+        <option value="4">Tháng 4</option>
+        <option value="5">Tháng 5</option>
+        <option value="6">Tháng 6</option>
+        <option value="7">Tháng 7</option>
+        <option value="8">Tháng 8</option>
+        <option value="9">Tháng 9</option>
+        <option value="10">Tháng 10</option>
+        <option value="11">Tháng 11</option>
+        <option value="12">Tháng 12</option>
+        <!-- Thêm các tháng khác vào đây nếu cần -->
+    </select>
+    <select style="margin-left: 10px;margin-right: 20px;" name="Nam" id="Nam">
+        <option value="2015">2015</option>
+        <option value="2016">2016 </option>
+        <option value="2017">2017 </option>
+        <option value="2018">2018 </option>
+        <option value="2019">2019 </option>
+        <option value="2020">2020 </option>
+        <option value="2021">2021 </option>
+        <option value="2022">2022 </option>
+        <option value="2023">2023 </option>
+        <option value="2024">2024 </option>
+
+        <!-- Thêm các tháng khác vào đây nếu cần -->
+    </select>
+    <button type="submit" class="btn btn-success">Xuất Excel</button>
+</form> *@
+
+<form asp-controller="ThongKeThang" id="exportForm" asp-action="ThongKeThang" method="get" style="padding-top: 4%;padding-left: 3%; font-size: 16px;">
+    <label for="thang">Chọn tháng:</label>
+    <select style="margin-left: 10px;margin-right: 20px;" name="thang" id="thang">
+        <option value="1">Tháng 1</option>
+        <option value="2">Tháng 2</option>
+        <option value="3">Tháng 3</option>
+        <option value="4">Tháng 4</option>
+        <option value="5">Tháng 5</option>
+        <option value="6">Tháng 6</option>
+        <option value="7">Tháng 7</option>
+        <option value="8">Tháng 8</option>
+        <option value="9">Tháng 9</option>
+        <option value="10">Tháng 10</option>
+        <option value="11">Tháng 11</option>
+        <option value="12">Tháng 12</option>
+        <!-- Thêm các tháng khác vào đây nếu cần -->
+    </select>
+    <select style="margin-left: 10px;margin-right: 20px;" name="Nam" id="Nam">
+        <option value="2015">2015</option>
+        <option value="2016">2016 </option>
+        <option value="2017">2017 </option>
+        <option value="2018">2018 </option>
+        <option value="2019">2019 </option>
+        <option value="2020">2020 </option>
+        <option value="2021">2021 </option>
+        <option value="2022">2022 </option>
+        <option value="2023">2023 </option>
+        <option value="2024">2024 </option>
+
+        <!-- Thêm các tháng khác vào đây nếu cần -->
+    </select>
+
+    <button type="button" onclick="submitForm()">Thực hiện</button>
+    <button type="submit" class="btn btn-success" style="margin-left:2%">Xuất Excel</button>
+</form>
+
+<h2 style="text-align:center">Thống kê doanh thu</h2>
+<div class="card-body" style="padding-left:2%; padding-right:2%;">
+    @if (Model.Any())
+    {
+        <table id="datatable" class="table table-sm table-hover table-striped table-bordered mb-0" style="font-size:18px">
+            <thead>
+                <tr>
+
+                    <th>Tên Nhân Viên</th>
+                    <th>Chức Vụ</th>
+                    <th>Tháng </th>
+                    <th>Thực Lãnh</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.TenNhanVien</td>
+                        <td>@item.TenChucVu</td>
+                        <td>@item.Thang</td>
+                        <td>@item.ThucLanh.ToString("N0") VND</td>
+
+                    </tr>
+                }
+                <tr>
+                    <td colspan="3"><strong>Tổng doanh thu:</strong></td>
+                    <td>@string.Format("{0:N0}", Model.Sum(x => x.TongDoanhThuThang).ToString("N0") + " VND")</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Không có dữ liệu thống kê doanh thu.</p>
+    }
+</div>
+@section Scripts {
+    <script>
+        $('#exportForm').submit(function (event) {
+            event.preventDefault(); // Ngăn chặn việc gửi form mặc định
+
+            var selectedMonth = $('#thang').val(); // Lấy giá trị của tháng được chọn
+            var selectedYear = $('#Nam').val(); // Lấy giá trị của năm được chọn
+            var exportUrl = '@Url.Action("ExportExcel", "ThongKeThang")' + '?thang=' + selectedMonth + '&Nam=' + selectedYear; // Xây dựng URL
+
+            window.location.href = exportUrl; // Chuyển hướng người dùng đến action ExportExcel với tháng và năm được chọn
+        });
+
+        function submitForm() {
+
+
+            var selectedMonth = document.getElementById("thang").value;
+            var selectedYear = document.getElementById("Nam").value;
+
+            // Chuyển hướng đến action ThongKeThang với tháng và năm được chọn
+            window.location.href = '@Url.Action("ThongKeThang", "ThongKeThang")' + '?thang=' + selectedMonth + '&Nam=' + selectedYear;
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Kiểm tra nếu có query parameters thang và nam trong URL
+            const params = new URLSearchParams(window.location.search);
+            const selectedMonth = params.get('thang');
+            const selectedYear = params.get('Nam');
+
+            // Nếu có giá trị tháng và năm, gán cho các ô nhập liệu tương ứng
+            if (selectedMonth && selectedYear) {
+                $('#thang').val(selectedMonth);
+                $('#Nam').val(selectedYear);
+            }
+        });
+    </script>
+
+}

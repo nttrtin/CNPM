@@ -1,0 +1,350 @@
+﻿@model QLNS.Models.Luong
+
+@{
+    ViewData["Title"] = "Sửa Lương";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Edit" style="display:ruby">
+            <input type="hidden" asp-for="ID" />
+            <dl class="row" style="width:40%">
+                <div class="mb-3">
+                    <label asp-for="NhanVienID" class="control-label"></label>
+                    <select asp-for="NhanVienID" class="form-control" asp-items="ViewBag.NhanVienID">
+                 
+                    </select>
+                    <span asp-validation-for="NhanVienID" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ThangID" class="control-label"></label>
+                    <select asp-for="ThangID" class="form-control" asp-items="ViewBag.ThangID">
+                
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ThoiGianLamViecID" class="control-label"></label>
+                    <select asp-for="ThoiGianLamViecID" class="form-control" asp-items="ViewBag.ThoiGianLamViecID"></select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="LuongCoBanID" class="control-label"></label>
+                    <select asp-for="LuongCoBanID" class="form-control" asp-items="ViewBag.LuongCoBanID"></select>
+                    <span asp-validation-for="LuongCoBanID" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="LyDoKhoanTruID" class="control-label"></label>
+                    <select asp-for="LyDoKhoanTruID" class="form-control" asp-items="ViewBag.LyDoKhoanTruID">
+              
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="KhoanTruID" class="control-label"></label>
+                    <select asp-for="KhoanTruID" class="form-control" asp-items="ViewBag.KhoanTruID" readonly>
+              
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="LyDoKhenThuongID" class="control-label"></label>
+                    <select asp-for="LyDoKhenThuongID" class="form-control" asp-items="ViewBag.LyDoKhenThuongID">
+                   
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="KhenThuongID" class="control-label"></label>
+                    <select asp-for="KhenThuongID" class="form-control" asp-items="ViewBag.KhenThuongID" readonly>
+               
+                    </select>
+                </div>
+
+
+            </dl>
+            <dl class="row" style="width:40%">
+                <div class="mb-3">
+                    <label asp-for="ChucVuID" class="control-label"></label>
+                    <select asp-for="ChucVuID" class="form-control" asp-items="ViewBag.ChucVuID" readonly>
+                     
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="TenPhuCapID" class="control-label"></label>
+                    <select asp-for="TenPhuCapID" class="form-control" asp-items="ViewBag.TenPhuCapID">
+                  
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PhuCapID" class="control-label"></label>
+                    <select asp-for="PhuCapID" class="form-control" asp-items="ViewBag.PhuCapID">        
+                    </select>
+                </div>
+                <button type="button" id="tinhButton" class="btn btn-primary">Tính Tổng Thu Nhập</button>
+
+                <div class="form-group">
+                    <label asp-for="TongThuNhap" class="control-label">Tổng Thu Nhập</label>
+                    <input asp-for="TongThuNhap" class="form-control" id="TongThuNhap" readonly />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="TinhTrangLuong" class="control-label"></label>
+                    <input asp-for="TinhTrangLuong" class="form-control" />
+                    <span asp-validation-for="TinhTrangLuong" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PhuongThucThanhToan" class="control-label"></label>
+                    <input asp-for="PhuongThucThanhToan" class="form-control" />
+                    <span asp-validation-for="PhuongThucThanhToan" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NgayThanhToan" class="control-label"></label>
+                    <input type="date" asp-for="NgayThanhToan" class="form-control" />
+                    <span asp-validation-for="NgayThanhToan" class="text-danger"></span>
+                </div>
+                <div class="mb-0">
+                    <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Thêm mới</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+                </div>
+            </dl>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script>
+            $(document).ready(function () {
+                $('#ThoiGianLamViecID').on('mousedown', function (event) {
+                    event.preventDefault(); // Ngăn người dùng nhấp vào select
+                });
+                $('#LuongCoBanID').on('mousedown', function (event) {
+                    event.preventDefault(); // Ngăn người dùng nhấp vào select
+                });
+            });
+        </script>
+        <script>
+
+
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/Luong/GetThang', // Đường dẫn tới action GetThang
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown ThangID
+                            $('#ThangID').empty();
+
+                            // Thêm các option mới với các tháng nhân viên đó đã làm việc
+                            if (data !== null) {
+                                $.each(data, function (index, item) {
+                                    $('#ThangID').append($('<option>', {
+                                        value: item.thang, // Giả sử data trả về là một mảng các object có trường thang là giá trị của tháng
+                                        text: item.thang // Giả sử data trả về là một mảng các object có trường thang và text là số tháng
+                                    }));
+                                });
+
+                                // Trigger sự kiện change trên dropdown ThangID để tự động cập nhật số ngày công khi chọn nhân viên
+                                $('#ThangID').trigger('change');
+                            } else {
+                                $('#ThangID').append($('<option>', {
+                                    value: '',
+                                    text: 'Không có dữ liệu tháng làm việc cho nhân viên này'
+                                }));
+                            }
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+
+                $('#ThangID').change(function () {
+                    var selectedThangID = $(this).val();
+                    var selectedNhanVienID = $('#NhanVienID').val();
+                    $.ajax({
+                        url: '/Admin/Luong/GetSoNgayCong', // Đường dẫn tới action GetSoNgayCong
+                        type: 'GET', // Phương thức GET
+                        data: { NhanVienID: selectedNhanVienID, Thang: selectedThangID }, // Truyền NhanVienID và ThangID
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown ThoiGianLamViecID
+                            $('#ThoiGianLamViecID').empty();
+
+                            if (data !== null) {
+                                // Thêm option mới với số ngày công nhận được từ server
+                                $('#ThoiGianLamViecID').append($('<option>', {
+                                    value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                    text: data.soNgayCong // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                                }));
+                            } else {
+                                // Hiển thị thông báo nếu không có dữ liệu trả về
+                                alert("Không có dữ liệu số ngày công cho tháng này.");
+                            }
+                        },
+                        error: function () {
+                            // Xử lý lỗi nếu có
+                            alert("Đã xảy ra lỗi khi gửi yêu cầu.");
+                        }
+                    });
+                });
+            });
+
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/NhanVien/GetLuongCoBan', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#LuongCoBanID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#LuongCoBanID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.luongCoBan // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/NhanVien/GetChucVu', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#ChucVuID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#ChucVuID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.tenChucVu // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+
+            $(document).ready(function () {
+                $('#TenPhuCapID').change(function () {
+                    var selectedPhuCapID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/Luong/GetPhuCap', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { PhuCapID: selectedPhuCapID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#PhuCapID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#PhuCapID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.phuCap // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+            $(document).ready(function () {
+                $('#LyDoKhoanTruID').change(function () {
+                    var selectedKhoanTruID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/Luong/GetKhoanTru', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { KhoanTruID: selectedKhoanTruID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#KhoanTruID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#KhoanTruID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.khoanTru // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+            $(document).ready(function () {
+                $('#LyDoKhenThuongID').change(function () {
+                    var selectedKhenThuongID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/Luong/GetKhenThuong', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { KhenThuongID: selectedKhenThuongID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#KhenThuongID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#KhenThuongID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.khenThuong // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+        </script>
+        <script>
+            // Hàm để cập nhật ngày thanh toán dựa trên tháng đã chọn
+            function updatePaymentDate() {
+                // Lấy giá trị tháng đã chọn
+                var selectedMonth = document.getElementById("ThangID").value;
+
+                // Lấy phần tử input của ngày thanh toán
+                var paymentDateInput = document.getElementById("NgayThanhToan");
+
+                // Thiết lập thuộc tính max của input ngày thanh toán là ngày cuối cùng của tháng đã chọn
+                var lastDayOfMonth = new Date(new Date().getFullYear(), selectedMonth, 0).getDate();
+                paymentDateInput.setAttribute("max", new Date(new Date().getFullYear(), selectedMonth - 1, lastDayOfMonth).toISOString().split('T')[0]);
+
+                // Đặt lại giá trị của ngày thanh toán thành rỗng
+                paymentDateInput.value = "";
+            }
+
+            // Thêm lắng nghe sự kiện cho dropdown ThangID để gọi hàm updatePaymentDate khi có thay đổi
+            document.getElementById("ThangID").addEventListener("change", updatePaymentDate);
+
+            // Gọi hàm này ban đầu để thiết lập giá trị ban đầu dựa trên việc chọn tháng mặc định
+            updatePaymentDate();
+        </script>
+
+        <script>
+            // Bắt sự kiện khi người dùng nhấn nút Tính Tổng Thu Nhập
+            $("#tinhButton").click(function () {
+                // Lấy giá trị từ các dropdown
+                var luongCoBan = parseInt($("#LuongCoBanID option:selected").text());
+                var soNgayCong = parseInt($("#ThoiGianLamViecID option:selected").text());
+                var khenThuong = parseInt($("#KhenThuongID option:selected").text());
+                var khoanTru = parseInt($("#KhoanTruID option:selected").text());
+                var phuCap = parseInt($("#PhuCapID option:selected").text());
+
+                // Tính toán tổng thu nhập
+                var tongThuNhap = (luongCoBan / 22) * soNgayCong + khenThuong - khoanTru + phuCap;
+
+                // Hiển thị tổng thu nhập trên giao diện
+                $("#TongThuNhap").val(tongThuNhap); // Giá trị là kiểu int, không cần làm tròn
+            });
+        </script>
+    }
+
+}

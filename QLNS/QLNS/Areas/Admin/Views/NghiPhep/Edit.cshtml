@@ -1,0 +1,87 @@
+﻿@model QLNS.Models.NghiPhep
+
+@{
+    ViewData["Title"] = "Sửa Nghỉ Phép";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="ID" />
+            <div class="mb-3">
+                <label asp-for="NhanVienID" class="control-label"></label>
+                <select asp-for="NhanVienID" class="form-control" asp-items="ViewBag.NhanVienID"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NgayBatDau" class="control-label"></label>
+                <input asp-for="NgayBatDau" id="NgayBatDau" class="form-control" onchange="tinhSoNgayNghi()">
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NgayBatDau" class="control-label"></label>
+                <input asp-for="NgayKetThuc" id="NgayKetThuc" class="form-control" onchange="tinhSoNgayNghi()">
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+
+
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="SoNgayNghi" class="control-label"></label>
+                <input asp-for="SoNgayNghi" id="SoNgayNghi" class="form-control" readonly>
+                <span asp-validation-for="SoNgayNghi" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="LyDoNghi" class="control-label"></label>
+                <input asp-for="LyDoNghi" class="form-control" />
+                <span asp-validation-for="LyDoNghi" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TrangThai" class="control-label"></label>
+                <select asp-for="TrangThai" class="form-control">
+                    <option value="ChưaXácNhận">Chưa Xác Nhận</option>
+                    <option value="ĐãXácNhận">Đã Xác Nhận</option>
+                    <option value="ĐãTừChối">Đã Từ Chối</option>
+                </select>
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Cập nhật</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script>
+            function tinhSoNgayNghi() {
+                var ngayBatDau = new Date(document.getElementById("NgayBatDau").value);
+                var ngayKetThuc = new Date(document.getElementById("NgayKetThuc").value);
+
+                if (!isNaN(ngayBatDau.getTime()) && !isNaN(ngayKetThuc.getTime())) {
+                    if (ngayKetThuc <= ngayBatDau) {
+                        alert("Ngày kết thúc phải lớn hơn ngày bắt đầu. Vui lòng nhập lại.");
+                        document.getElementById("NgayKetThuc").value = '';
+                        return;
+                    }
+
+                    var soNgayNghi = 0;
+                    var currentDate = new Date(ngayBatDau);
+                    while (currentDate <= ngayKetThuc) {
+                        var dayOfWeek = currentDate.getDay();
+                        if (dayOfWeek !== 0 && dayOfWeek !== 6) { // Loại bỏ thứ 7 và Chủ Nhật
+                            soNgayNghi++;
+                        }
+                        currentDate.setDate(currentDate.getDate() + 1);
+                    }
+
+                    document.getElementById("SoNgayNghi").value = soNgayNghi;
+                } else {
+                    document.getElementById("SoNgayNghi").value = '';
+                }
+            }
+        </script>
+    }
+}

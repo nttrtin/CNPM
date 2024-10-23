@@ -1,0 +1,31 @@
+﻿@model QLNS.Models.PhongBan
+
+@{
+    ViewData["Title"] = "Sửa Phòng Ban";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="ID" />
+            <div class="mb-3">
+                <label asp-for="MaPhongBan" class="control-label"></label>
+                <input asp-for="MaPhongBan" class="form-control" />
+                <span asp-validation-for="MaPhongBan" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenPhongBan" class="control-label"></label>
+                <input asp-for="TenPhongBan" class="form-control" />
+                <span asp-validation-for="TenPhongBan" class="text-danger"></span>
+            </div>
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Cập nhật</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

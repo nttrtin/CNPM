@@ -1,0 +1,355 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContextAccessor;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QLNS</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- JQVMap -->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link href="/css/longle.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    @await RenderSectionAsync("Styles", required: false)
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/QLNS.styles.css" asp-append-version="true" />
+
+</head>
+   
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-color:steelblue">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button" style="color:white;"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a asp-area="QuanLy" asp-controller="Home" asp-action="Index" class="nav-link" style="color:white;">Home</a>
+                </li>
+
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Navbar Search -->
+                <!-- Messages Dropdown Menu -->
+
+                <li class="nav-item dropdown user-menu" style="padding-right:40px;">
+                    @if (!_httpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+                    {
+                        <a class="nav-link dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Login">
+                            <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-user"></i></div>
+                            <div class="navbar-tool-text ms-n3">Đăng Nhập</div>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <span class="d-none d-md-inline" style="color:white;">@_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "TenDangNhap")?.Value</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <!-- User image -->
+                            <li class="user-header bg-primary" style="background-color: lightsteelblue !important;">
+                                <p style="margin-top:18%;color:black;text-transform: uppercase;font-weight: 600; ">
+                                    @_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "NhanVienID")?.Value
+                                    <small> Tháng @DateTime.Now.ToString("MMM. yyyy")</small>
+                                </p>
+                            </li>
+                            <!-- Menu Body -->
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <a asp-area="QuanLy" asp-controller="NguoiDungChung" asp-action="Index" class="btn btn-default btn-flat">Trang Cá Nhân</a>
+                                <a asp-area="" asp-controller="Home" asp-action="Logout" class="btn btn-default btn-flat float-right">Đăng Xuất</a>
+                            </li>
+                        </ul>
+                    }
+                </li>
+
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: steelblue;">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link">
+                <img src="/img/logo.png" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span>Quản Lý</span>
+            </a>
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        @if (!_httpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Login"><i class="fa-light fa-fw fa-sign-in-alt"></i> Đăng nhập quản trị</a>
+                            </li>
+                        }
+                        else
+                        {
+
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active" style="    background-color: lightsteelblue;">
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                                    <p style="font-weight:600;">
+                                        Nhân Viên
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style=" background-color: rgba(0, 0, 0, 0.15);">
+                                    <li class="nav-item">
+                                        <a asp-area="QuanLy" asp-controller="NhanVien" asp-action="Index" class="nav-link ">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Danh Sách Nhân Viên</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="QuanLy" asp-controller="Luong" asp-action="Index" class="nav-link ">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Danh Sách Lương</p>
+                                        </a>
+                                    </li>
+                                    @* <li class="nav-item">
+                                        <a asp-area="QuanLy" asp-controller="NguoiDung" asp-action="Index" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Danh Sách Tài Khoản</p>
+                                        </a>
+                                    </li> *@
+                                    <li class="nav-item">
+                                        <a asp-area="QuanLy" asp-controller="CongTac" asp-action="Index" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Danh Sách Công Tác</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="QuanLy" asp-controller="HopDong" asp-action="Index" class="nav-link">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Danh Sách Hợp Đồng</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-chart-pie"></i>
+                                    <p style="font-weight:600;">
+                                        Danh Mục
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style=" background-color: rgba(0, 0, 0, 0.15);">
+                              
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="TrinhDo" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Trình Độ</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="ChuyenMon" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Chuyên Môn</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="BangCap" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Bằng Cấp</p>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="NhanVien" asp-action="Create">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thêm Nhân Viên</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="Luong" asp-action="Create">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thêm Lương</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="NghiPhep" asp-action="Create">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thêm Nghỉ Phép</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="HopDong" asp-action="Create">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thêm Hơpp Đồng</p>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p style="font-weight:600;">
+                                        Quan lý lương
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style=" background-color: rgba(0, 0, 0, 0.15);">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="Luong" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thêm lương</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="NghiPhep" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Yêu Cầu Nghỉ Phép</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="ThoiGianLamViec" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thời gian làm việc</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="PhuCap" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Phụ cấp</p>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p style="font-weight:600;">
+                                        Khen thưởng - Kỷ luật
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style=" background-color: rgba(0, 0, 0, 0.15);">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="KhenThuong" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Khen thưởng</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="KhoanTru" asp-action="Index">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Kỷ luật</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="QuanLy" asp-controller="NguoiDungChung" asp-action="Index">
+                       
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p style="font-weight:600;">
+                                        Tài Khoản
+                                      
+                                    </p>
+                                </a>
+                              
+                            
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p style="font-weight:600;">
+                                        Thống Kê
+                                        <i class="fas fa-angle-left right"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style=" background-color: rgba(0, 0, 0, 0.15);">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="ThongKeThang" asp-action="ThongKeThang">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thống Kê Tháng</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="QuanLy" asp-controller="ThongKeNam" asp-action="ThongKeNam">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Thống Kê Năm</p>
+                                        </a>
+                                    </li>
+                               
+
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+
+
+            <main role="main" >
+                @RenderBody()
+            </main>
+      
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">Minh</a>.</strong>
+            All rights reserved.
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Version</b> 3.2.0
+            </div>
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+
+    <!-- jQuery -->
+    <script src="/js/jquery.min.js"></script>
+
+    <!-- Bootstrap 4 -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="/js/adminlte.js"></script>
+
+
+    <script src="dist/js/pages/dashboard.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

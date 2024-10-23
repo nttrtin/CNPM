@@ -1,0 +1,75 @@
+﻿@model IEnumerable<QLNS.Models.HopDong>
+
+@{
+    ViewData["Title"] = "Hợp Đồng";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table id="datatable" class="table table-sm table-hover table-striped table-bordered mb-0 text-center">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.MaHopDong)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TenHopDong)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NgayBatDau)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NgayKetThuc)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NoiDung)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NgayKy)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NhanVienID)
+                    </th>
+                    <th width="5%">Sửa</th>
+                    <th width="5%">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaHopDong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenHopDong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayBatDau)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayKetThuc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NoiDung)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayKy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NhanVien.TenNhanVien)
+                        </td>
+                        @*  <td> @Html.DisplayFor(modelItem => item.TrangThai)</td> *@
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@item.ID"><i class="fa-light fa-pen-to-square"></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@item.ID"><i class="fa-light fa-trash-can text-danger"></a></td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

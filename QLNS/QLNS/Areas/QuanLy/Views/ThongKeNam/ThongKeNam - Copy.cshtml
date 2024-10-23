@@ -1,0 +1,41 @@
+﻿@model List<ThongKeNam>
+@{
+    ViewData["Title"] = "Thống kê";
+}
+<h2>Thống kê doanh thu</h2>
+@if (Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tháng</th>
+
+                <th>Tổng tiền Doanh Thu Tháng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.ThangID</td>
+                    <td>@item.TongDoanhThuThangID</td>
+                 
+         
+                </tr>
+            }
+            <tr>
+                <td colspan="2"><strong>Tổng doanh thu:</strong></td>
+                <td>@string.Format("{0:N0}", Model.Sum(x => x.TongDoanhThuNam))</td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có dữ liệu thống kê doanh thu.</p>
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+}

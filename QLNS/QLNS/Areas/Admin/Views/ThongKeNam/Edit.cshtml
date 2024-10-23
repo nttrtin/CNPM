@@ -1,0 +1,44 @@
+﻿@model QLNS.Models.ThongKeNam
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ThongKeNam</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="ThangID" class="control-label"></label>
+                <input asp-for="ThangID" class="form-control" />
+                <span asp-validation-for="ThangID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongDoanhThuThangID" class="control-label"></label>
+                <input asp-for="TongDoanhThuThangID" class="form-control" />
+                <span asp-validation-for="TongDoanhThuThangID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongDoanhThuNam" class="control-label"></label>
+                <input asp-for="TongDoanhThuNam" class="form-control" />
+                <span asp-validation-for="TongDoanhThuNam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

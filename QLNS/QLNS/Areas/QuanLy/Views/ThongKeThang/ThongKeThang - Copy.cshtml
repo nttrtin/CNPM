@@ -1,0 +1,66 @@
+﻿@model List<ThongKeThang>
+@{
+    ViewData["Title"] = "Thống kê";
+}
+<form asp-controller="ThongKeThang" asp-action="ThongKeThang" method="get" style="padding-top: 4%;padding-left: 3%; font-size: 16px;">
+    <label for="thang">Chọn tháng:</label>
+    <select style="margin-left: 10px;margin-right: 20px;" name="thang" id="thang">
+        <option value="1">Tháng 1</option>
+        <option value="2">Tháng 2</option>
+        <option value="3">Tháng 3</option>
+        <option value="4">Tháng 4</option>
+        <option value="5">Tháng 5</option>
+        <option value="6">Tháng 6</option>
+        <option value="7">Tháng 7</option>
+        <option value="8">Tháng 8</option>
+        <option value="9">Tháng 9</option>
+        <option value="10">Tháng 10</option>
+        <option value="11">Tháng 11</option>
+        <option value="12">Tháng 12</option>
+        <!-- Thêm các tháng khác vào đây nếu cần -->
+    </select>
+    <button type="submit">Thực hiện</button>
+</form>
+
+<h2 style="text-align:center">Thống kê doanh thu</h2>
+<div class="card-body" style="padding-left:2%; padding-right:2%;">
+    @if (Model.Any())
+    {
+        <table class="table table-sm table-hover table-striped table-bordered mb-0" style="font-size:18px">
+            <thead>
+                <tr>
+
+                    <th>Tên Nhân Viên</th>
+                    <th>Chức Vụ</th>
+                    <th>Tháng </th>
+                    <th>Thực Lãnh</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.TenNhanVien</td>
+                        <td>@item.TenChucVu</td>
+                        <td>@item.Thang</td>
+                        <td>@item.ThucLanh</td>
+
+                    </tr>
+                }
+                <tr>
+                    <td colspan="3"><strong>Tổng doanh thu:</strong></td>
+                    <td>@string.Format("{0:N0}", Model.Sum(x => x.TongDoanhThuThang).ToString("N0") + " VND")</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Không có dữ liệu thống kê doanh thu.</p>
+    }
+</div>
+@section Styles {
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+}

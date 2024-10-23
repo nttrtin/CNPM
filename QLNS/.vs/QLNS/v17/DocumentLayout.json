@@ -1,0 +1,1855 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\nguoidungchungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\nguoidungchungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\congtaccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\congtaccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\thoigianlamvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\thoigianlamvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nguoidung\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nguoidung\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\trinhdocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\trinhdocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\tongiaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\tongiaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\thongkethangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\thongkethangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\thongkenamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\thongkenamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\quoctichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\quoctichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\phucapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\phucapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\nguoidungchungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\nguoidungchungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\khoantrucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\khoantrucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\khenthuongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\khenthuongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\congtaccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\congtaccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\chuyenmoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\chuyenmoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\bangcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\bangcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\luong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nguoidungchung\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nguoidungchung\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\trinhdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\trinhdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\hopdong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\hopdong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\congtac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\congtac\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\controllers\\dantoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\dantoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\hopdong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\nghiphep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\nghiphep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\thongkethang\\thongkethang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\thongkethang\\thongkethang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\thongkenam\\thongkenam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\thongkenam\\thongkenam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\thoigianlamviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\thoigianlamviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\hopdong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\hopdong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\congtac\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\congtac\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\nguoidungchung\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\nguoidungchung\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\luong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\trinhdocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\trinhdocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\chuyenmoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\chuyenmoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\bangcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\bangcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\trinhdo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\trinhdo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\chuyenmon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\chuyenmon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\bangcap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\bangcap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\trinhdo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\trinhdo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\tongiao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\tongiao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\trinhdo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\trinhdo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\quoctich\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\quoctich\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\phongban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\phongban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\dantoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\dantoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\chuyenmon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\chuyenmon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\bangcap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\bangcap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\chucvu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\chucvu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\chucvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\chucvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\quanlynhansudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\quanlynhansudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\thongkenamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\thongkenamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\trinhdo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\trinhdo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\nghiphep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\nghiphep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\nghiphepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\khenthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\khenthuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\luong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\luong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\hopdong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\hopdong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\chucvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\chucvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nghiphep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nghiphep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\thoigianlamviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\thoigianlamviec\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\thongkenam\\thongkenam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\thongkenam\\thongkenam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nghiphep\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nghiphep\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\hopdong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\hopdong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nghiphep\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nghiphep\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\hopdong\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\hopdong\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\hopdong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\hopdong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nghiphep\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nghiphep\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nghiphep\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nghiphep\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\thongkethang\\thongkethang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\thongkethang\\thongkethang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\controllers\\thongkethangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\controllers\\thongkethangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\luong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\luong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\thoigianlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\thoigianlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\bangcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\bangcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\phongban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\phongban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\admin\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\areas\\quanly\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\quanly\\views\\luong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\models\\phucap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\phucap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|d:\\source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\qlns\\qlns\\qlns\\migrations\\20240430152801_csdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{989ABA5F-B43E-44C7-BDFF-6FAB84160267}|QLNS\\QLNS.csproj|solutionrelative:qlns\\migrations\\20240430152801_csdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CongTacController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\CongTacController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\CongTacController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\CongTacController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\CongTacController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAwwLUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:55:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrinhDoController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\TrinhDoController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\TrinhDoController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\TrinhDoController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\TrinhDoController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAgwLAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:42:14.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\NguoiDung.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "QLNS\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAA7wIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:20:14.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HopDongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\HopDongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\HopDongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\HopDongController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\HopDongController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAwwKEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:20:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:20:48.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NguoiDungChungController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NguoiDungChungController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\NguoiDungChungController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NguoiDungChungController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\NguoiDungChungController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:48:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NghiPhepController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NghiPhepController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\NghiPhepController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\NghiPhepController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\NghiPhepController.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAwwO8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:55:15.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TonGiaoController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\TonGiaoController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\TonGiaoController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\TonGiaoController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\TonGiaoController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAgwMcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:41:48.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LuongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\LuongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\LuongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\LuongController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\LuongController.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAAwwM4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:21:13.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThoiGianLamViecController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThoiGianLamViecController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ThoiGianLamViecController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThoiGianLamViecController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ThoiGianLamViecController.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAYwOUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:08:51.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAHwAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:44:48.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThongKeThangController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThongKeThangController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ThongKeThangController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThongKeThangController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ThongKeThangController.cs",
+              "ViewState": "AQIAAAABAAAAAAAAAAAYwBYBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:30:08.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDung\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NguoiDung\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDung\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NguoiDung\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T14:27:41.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThongKeNamController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThongKeNamController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ThongKeNamController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ThongKeNamController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ThongKeNamController.cs",
+              "ViewState": "AQIAABkBAAAAAAAAAAAYwC8BAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:03:31.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuocTichController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\QuocTichController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\QuocTichController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\QuocTichController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\QuocTichController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAgwMcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:41:12.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PhuCapController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\PhuCapController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\PhuCapController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\PhuCapController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\PhuCapController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAYwLMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:18:13.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAMQBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:22:04.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NguoiDungChungController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungChungController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungChungController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungChungController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungChungController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:44:49.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NghiPhepController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NghiPhepController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\NghiPhepController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NghiPhepController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\NghiPhepController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAYwMgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:08:18.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LuongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\LuongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\LuongController.cs",
+              "ViewState": "AQIAAGYBAAAAAAAAAAAgwH0BAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:43:20.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhongBanController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\PhongBanController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\PhongBanController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\PhongBanController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\PhongBanController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAgwMcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:40:30.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KhoanTruController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\KhoanTruController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\KhoanTruController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\KhoanTruController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\KhoanTruController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAYwLUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:16:17.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KhenThuongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\KhenThuongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\KhenThuongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\KhenThuongController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\KhenThuongController.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAYwLIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:15:53.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HopDongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\HopDongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\HopDongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\HopDongController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\HopDongController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAYwMcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T06:20:01.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CongTacController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\CongTacController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\CongTacController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\CongTacController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\CongTacController.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAYwNIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:15:10.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChuyenMonController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChuyenMonController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ChuyenMonController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChuyenMonController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ChuyenMonController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAgwMkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:39:15.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChucVuController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChucVuController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ChucVuController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChucVuController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ChucVuController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAgwMgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:18:34.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BangCapController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\BangCapController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\BangCapController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\BangCapController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\BangCapController.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAgwMwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:34:29.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luong\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luong\\Index.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:20:21.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\appsettings.json",
+              "RelativeDocumentMoniker": "QLNS\\appsettings.json",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\appsettings.json",
+              "RelativeToolTip": "QLNS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T09:42:07.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAIwE8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T13:48:41.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAD4vycAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:27:43.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:48:35.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\HopDong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\HopDong\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\HopDong\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\HopDong\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T13:00:21.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TrinhDo.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\TrinhDo.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\TrinhDo.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\TrinhDo.cs",
+              "RelativeToolTip": "QLNS\\Models\\TrinhDo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T10:38:42.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAArwFYAAACYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T13:44:44.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAANMAAAAAAAAAAAArwDoBAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T13:45:25.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungChung\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NguoiDungChung\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungChung\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NguoiDungChung\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T13:47:55.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAgwJcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:27:12.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwE8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T13:45:59.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\HopDong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\HopDong\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\HopDong\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\HopDong\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T12:45:07.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\CongTac\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\CongTac\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\CongTac\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\CongTac\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T12:44:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DanTocController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\DanTocController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\DanTocController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\DanTocController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\DanTocController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:48:33.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luong\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luong\\Create.cshtml",
+              "ViewState": "AQIAADEBAAAAAAAAAAAowGQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:47:27.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ChucVu.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ChucVu.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\ChucVu.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ChucVu.cs",
+              "RelativeToolTip": "QLNS\\Models\\ChucVu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:17:06.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ThongKeThang.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAuwJoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T02:24:49.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ThongKeNam.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T02:26:23.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NguoiDungChung\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\NguoiDungChung\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NguoiDungChung\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\NguoiDungChung\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:53:56.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Luong\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Luong\\Create.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T13:30:48.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NghiPhep\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\NghiPhep\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NghiPhep\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\NghiPhep\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:54:03.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\CongTac\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\CongTac\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\CongTac\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\CongTac\\Create.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:54:13.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\HopDong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\HopDong\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\HopDong\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\HopDong\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T13:00:13.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\HopDong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\HopDong\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\HopDong\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\HopDong\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:54:27.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HopDong.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\HopDong.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\HopDong.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\HopDong.cs",
+              "RelativeToolTip": "QLNS\\Models\\HopDong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:13:26.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\HopDong\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\HopDong\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:30:36.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:54:50.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TrinhDoController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\TrinhDoController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\TrinhDoController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\TrinhDoController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\TrinhDoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:52:58.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LuongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\LuongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\LuongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\LuongController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\LuongController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:46:22.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Create.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAowIAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:48:03.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Edit.cshtml",
+              "ViewState": "AQIAACMBAAAAAAAAAAAAABYBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:57:31.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ChuyenMonController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ChuyenMonController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\ChuyenMonController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ChuyenMonController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\ChuyenMonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:25:16.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BangCapController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\BangCapController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\BangCapController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\BangCapController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\BangCapController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:23:50.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:44:44.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ChuyenMon\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\ChuyenMon\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\ChuyenMon\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\ChuyenMon\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:44:20.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\BangCap\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\BangCap\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\BangCap\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\BangCap\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:44:14.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TrinhDo\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\TrinhDo\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TrinhDo\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\TrinhDo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:44:06.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TonGiao\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\TonGiao\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TonGiao\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\TonGiao\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:57.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TrinhDo\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\TrinhDo\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\TrinhDo\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\TrinhDo\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:44:02.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\QuocTich\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\QuocTich\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\QuocTich\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\QuocTich\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:46.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\PhongBan\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\PhongBan\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\PhongBan\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\PhongBan\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:34.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\DanToc\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\DanToc\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\DanToc\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\DanToc\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:24.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChuyenMon\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ChuyenMon\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChuyenMon\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ChuyenMon\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\BangCap\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\BangCap\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\BangCap\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\BangCap\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:43:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Delete.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Delete.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T08:26:38.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T08:27:08.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ThongKeNamController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ThongKeNamController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\ThongKeNamController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ThongKeNamController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\ThongKeNamController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:25:24.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "QuanlynhansuDbContext.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\QuanlynhansuDbContext.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\QuanlynhansuDbContext.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\QuanlynhansuDbContext.cs",
+              "RelativeToolTip": "QLNS\\Models\\QuanlynhansuDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:21:09.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T09:23:16.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "KhenThuong.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\KhenThuong.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\KhenThuong.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\KhenThuong.cs",
+              "RelativeToolTip": "QLNS\\Models\\KhenThuong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:23:50.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\TrinhDo\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T13:53:32.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "NghiPhepController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\NghiPhepController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\NghiPhepController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\NghiPhepController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\NghiPhepController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:26:08.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "NghiPhep.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\NghiPhep.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\NghiPhep.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\NghiPhep.cs",
+              "RelativeToolTip": "QLNS\\Models\\NghiPhep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:15:34.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Luong\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Luong\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T09:35:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Luong\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Luong\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T09:35:37.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Luong\\Details.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Views\\Luong\\Details.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Luong\\Details.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T09:35:38.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "HopDongController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\HopDongController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\HopDongController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\HopDongController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\HopDongController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:18:29.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChucVu\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ChucVu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T08:26:00.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\HopDong\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\HopDong\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:23:14.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwDoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:21:25.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ThongKeNam.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ThongKeNam\\ThongKeNam.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T02:10:46.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ThoiGianLamViec\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T08:09:38.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\HopDong\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\HopDong\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:26:37.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Index.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:30:38.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:26:19.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\HopDong\\Delete.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Delete.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\HopDong\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:25:42.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\HopDong\\Details.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\HopDong\\Details.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\HopDong\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:32:36.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Details.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Details.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:26:18.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Delete.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NghiPhep\\Delete.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NghiPhep\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T06:25:43.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ThongKeThangController.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ThongKeThangController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Controllers\\ThongKeThangController.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Controllers\\ThongKeThangController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Controllers\\ThongKeThangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:24:54.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ThongKeThang.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ThongKeThang\\ThongKeThang.cshtml",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAuwJoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T15:29:41.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20240430152801_csdl.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Migrations\\20240430152801_csdl.cs",
+              "RelativeDocumentMoniker": "QLNS\\Migrations\\20240430152801_csdl.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Migrations\\20240430152801_csdl.cs",
+              "RelativeToolTip": "QLNS\\Migrations\\20240430152801_csdl.cs",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAAAFkBAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:28:01.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\libman.json",
+              "RelativeDocumentMoniker": "QLNS\\libman.json",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\libman.json",
+              "RelativeToolTip": "QLNS\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T15:27:28.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ThongKe.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ThongKe.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\ThongKe.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ThongKe.cs",
+              "RelativeToolTip": "QLNS\\Models\\ThongKe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:21:05.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Luong.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\Luong.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\Luong.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\Luong.cs",
+              "RelativeToolTip": "QLNS\\Models\\Luong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:41:46.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "BangCap.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\BangCap.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\BangCap.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\BangCap.cs",
+              "RelativeToolTip": "QLNS\\Models\\BangCap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:13:35.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:27:46.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAuwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:27:58.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luong\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luong\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:56:52.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "ThoiGianLamViec.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ThoiGianLamViec.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\ThoiGianLamViec.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\ThoiGianLamViec.cs",
+              "RelativeToolTip": "QLNS\\Models\\ThoiGianLamViec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:42:18.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\NhanVien\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\NhanVien\\Edit.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAuwIMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:37:18.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\PhongBan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\PhongBan\\Edit.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\PhongBan\\Edit.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\PhongBan\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:38:10.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luong\\Details.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luong\\Details.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luong\\Details.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:57:53.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Details.cshtml",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Areas\\QuanLy\\Views\\Luong\\Details.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\QuanLy\\Views\\Luong\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:57:50.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "PhuCap.cs",
+              "DocumentMoniker": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\PhuCap.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\PhuCap.cs",
+              "ToolTip": "D:\\Source qu\u1EA3n l\u00FD nh\u00E2n s\u1EF1\\QLNS\\QLNS\\QLNS\\Models\\PhuCap.cs",
+              "RelativeToolTip": "QLNS\\Models\\PhuCap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:41:39.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

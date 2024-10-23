@@ -1,0 +1,12 @@
+.d-block.sii {
+    width: 80% !important;
+}
+
+.no-select {
+    pointer-events: none; /* Ng?n ch?n */
+    user-select: none; /* Ng?n ch?n trên các trình duy?t hi?n ??i */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+

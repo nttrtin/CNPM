@@ -1,0 +1,82 @@
+﻿@model QLNS.Models.DangNhap
+@{
+    Layout = null; //không sử dụng layout 
+}
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin 2 - Dashboard</title>
+    <!-- Custom fonts for this template-->
+    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/longle.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+</head>
+<br />
+<div class="card" style="box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,0.15)!important;width:36%;margin-left:32%">
+    <div class="card-body login-card-body">
+
+        <div class="p-5">
+            <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+            </div>
+
+            @if (TempData["ThongBaoLoi"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    <i class="ci-close-circle me-2"></i>@TempData["ThongBaoLoi"]
+                </div>
+            }
+
+            <!-- Form đăng nhập -->
+            <form asp-action="Login" class="user" novalidate>
+                <input type="hidden" asp-for="LienKetChuyenTrang" value="@ViewBag.LienKetChuyenTrang" />
+
+                <!-- Input Số điện thoại -->
+                <div class="form-group">
+                    <input asp-for="SDTID" class="form-control form-control-user" id="exampleInputSDTID"
+                           aria-describedby="emailHelp" placeholder="Số điện thoại" required />
+                    <span asp-validation-for="SDTID" class="text-danger"></span>
+                </div>
+              
+
+                <!-- Input Mật khẩu -->
+                <div class="form-group">
+                    <input asp-for="MatKhau" class="form-control form-control-user" id="exampleInputPassword"
+                           placeholder="Mật Khẩu" required />
+                    <span asp-validation-for="MatKhau" class="text-danger"></span>
+                </div>
+
+                <!-- Checkbox Ghi nhớ đăng nhập -->
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" asp-for="DuyTriDangNhap" class="custom-control-input" id="rememberMeCheckbox" />
+                        <label class="custom-control-label" for="rememberMeCheckbox">Ghi nhớ mật khẩu</label>
+                    </div>
+                </div>
+
+                <!-- Button Đăng nhập -->
+                <button class="btn btn-primary btn-user btn-block" type="submit">ĐĂNG NHẬP</button>
+                <hr>
+            </form>
+
+            <hr>
+            <div class="text-center">
+                <a class="small" href="forgot-password.html">Forgot Password?</a>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    </div>
+    <!-- /.login-card-body -->
+</div>

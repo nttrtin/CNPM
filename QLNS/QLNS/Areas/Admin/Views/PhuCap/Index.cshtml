@@ -1,0 +1,41 @@
+﻿@model IEnumerable<QLNS.Models.PhuCap>
+
+@{
+    ViewData["Title"] = "Phụ Cấp";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%" class="text-center">Stt</th>
+                    <th class="text-center"> @Html.DisplayNameFor(model => model.MaPhuCap)</th>
+                    <th class="text-center">@Html.DisplayNameFor(model => model.TenPhuCap)</th>
+                    <th class="text-center">@Html.DisplayNameFor(model => model.SoTienPhuCap)</th>
+                
+                    <th width="5%" class="text-center">Sửa</th>
+                    <th width="5%" class="text-center">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr class="text-center">
+                        <td>@stt</td>
+                        <td> @Html.DisplayFor(modelItem => item.MaPhuCap)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TenPhuCap)</td>
+                        <td class="text-center">@item.SoTienPhuCap.ToString("N0") VND</td>
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@item.ID"><i class="fa-light fa-pen-to-square"></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@item.ID"><i class="fa-light fa-trash-can text-danger"></a></td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

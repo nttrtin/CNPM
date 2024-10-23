@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Không được phép";
+}
+@{
+    Layout = null; //không sử dụng layout
+}
+<link rel="stylesheet" href="/css/all.min.css">
+<!-- JQVMap -->
+<!-- Theme style -->
+<link rel="stylesheet" href="/css/adminlte.min.css">
+<!-- overlayScrollbars -->
+<link rel="stylesheet" href="/css/OverlayScrollbars.min.css">
+<!-- Daterange picker -->
+<link href="/css/longle.css" rel="stylesheet">
+<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/QLNS.styles.css" asp-append-version="true" />
+<section class="content">
+    <div class="error-page">
+        <h2 class="headline text-warning"> 404</h2>
+
+        <div class="error-content">
+            <h3><i class="fas fa-exclamation-triangle text-warning"></i> Oops! Page not found.</h3>
+
+            <p>
+                We could not find the page you were looking for.
+                Meanwhile, you may <a href="../../index.html">return to dashboard</a> or try using the search form.
+            </p>
+
+            <form class="search-form">
+                <div class="input-group">
+                    <input type="text" name="search" class="form-control" placeholder="Search">
+
+                    <div class="input-group-append">
+                        <button type="submit" name="submit" class="btn btn-warning">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- /.input-group -->
+            </form>
+        </div>
+        <!-- /.error-content -->
+    </div>

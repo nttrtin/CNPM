@@ -1,0 +1,91 @@
+﻿@model QLNS.Models.CongTac
+
+@{
+    ViewData["Title"] = "Tạo Công Tác";
+}
+
+
+<div class="card">
+    <h5 class="card-header">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="MaCongTac" class="control-label"></label>
+                <input asp-for="MaCongTac" class="form-control" />
+                <span asp-validation-for="MaCongTac" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NhanVienID" class="control-label"></label>
+                <select asp-for="NhanVienID" class ="form-control" asp-items="ViewBag.NhanVienID"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ChucVuID" class="control-label"></label>
+                <select asp-for="ChucVuID" class ="form-control" asp-items="ViewBag.ChucVuID" readonly></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NgayBatDau" class="control-label"></label>
+                <input asp-for="NgayBatDau" class="form-control" />
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NgayKetThuc" class="control-label"></label>
+                <input asp-for="NgayKetThuc" class="form-control" />
+                <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DiaDiemCongTac" class="control-label"></label>
+                <input asp-for="DiaDiemCongTac" class="form-control" />
+                <span asp-validation-for="DiaDiemCongTac" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MucDich" class="control-label"></label>
+                <input asp-for="MucDich" class="form-control" />
+                <span asp-validation-for="MucDich" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TrangThai" class="control-label"></label>
+                <select asp-for="TrangThai" class="form-control">
+                    <option value="DangCongTac">Đang Công Tác</option>
+                    <option value="SapCongTac">Sắp Công Tác</option>
+                    <option value="DaHetHan">Đã Hết Hạn</option>
+                </select>
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Thêm mới</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+
+        <script>
+            $(document).ready(function () {
+                $('#NhanVienID').change(function () {
+                    var selectedNhanVienID = $(this).val();
+                    $.ajax({
+                        url: '/Admin/NhanVien/GetChucVu', // Đường dẫn tới phương thức GetSoNgayCong
+                        type: 'POST', // Phương thức POST
+                        data: { NhanVienID: selectedNhanVienID },
+                        success: function (data) {
+                            // Xóa tất cả các option hiện có trong dropdown
+                            $('#ChucVuID').empty();
+
+                            // Thêm option mới với số ngày công nhận được từ server
+                            $('#ChucVuID').append($('<option>', {
+                                value: data.id, // Giả sử data trả về là một object có trường id và value là số ngày công
+                                text: data.tenChucVu // Giả sử data trả về là một object có trường soNgayCong và text là số ngày công
+                            }));
+                        },
+                        error: function () {
+                            alert("An error occurred while processing your request.");
+                        }
+                    });
+                });
+            });
+        </script>
+    }

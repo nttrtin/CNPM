@@ -1,0 +1,947 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QLNS
+build_property.RootNamespace = QLNS
+build_property.ProjectDir = D:\Source quản lý nhân sự\QLNS\QLNS\QLNS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Source quản lý nhân sự\QLNS\QLNS\QLNS
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/BangCap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZ0NhcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/BangCap/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZ0NhcFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/BangCap/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZ0NhcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/BangCap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZ0NhcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/BangCap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFuZ0NhcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChucVu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1Y1Z1XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChucVu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1Y1Z1XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChucVu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1Y1Z1XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChucVu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1Y1Z1XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChucVu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1Y1Z1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChuyenMon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1eWVuTW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChuyenMon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1eWVuTW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChuyenMon/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1eWVuTW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChuyenMon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1eWVuTW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ChuyenMon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2h1eWVuTW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/CongTac/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZ1RhY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/CongTac/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZ1RhY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/CongTac/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZ1RhY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/CongTac/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZ1RhY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/CongTac/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZ1RhY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/DanToc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuVG9jXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/DanToc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuVG9jXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/DanToc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuVG9jXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/DanToc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuVG9jXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/DanToc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuVG9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/HopDong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/HopDong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/HopDong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/HopDong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/HopDong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhenThuong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hlblRodW9uZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhenThuong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hlblRodW9uZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhenThuong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hlblRodW9uZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhenThuong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hlblRodW9uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhenThuong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hlblRodW9uZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhoanTru/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hvYW5UcnVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhoanTru/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hvYW5UcnVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhoanTru/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hvYW5UcnVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhoanTru/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hvYW5UcnVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/KhoanTru/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hvYW5UcnVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Luong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTHVvbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Luong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTHVvbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Luong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTHVvbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Luong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTHVvbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Luong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTHVvbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NghiPhep/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmdoaVBoZXBcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NghiPhep/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmdoaVBoZXBcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NghiPhep/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmdoaVBoZXBcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NghiPhep/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmdoaVBoZXBcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NghiPhep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmdoaVBoZXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDungChung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nQ2h1bmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEluZGV4IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NguoiDung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Index - dutru.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cSW5kZXggLSBkdXRydS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhongBan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdCYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhongBan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdCYW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhongBan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdCYW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhongBan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdCYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhongBan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhvbmdCYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhuCap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGh1Q2FwXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhuCap/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGh1Q2FwXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhuCap/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGh1Q2FwXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhuCap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGh1Q2FwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/PhuCap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGh1Q2FwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/QuocTich/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVvY1RpY2hcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/QuocTich/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVvY1RpY2hcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/QuocTich/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVvY1RpY2hcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/QuocTich/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVvY1RpY2hcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/QuocTich/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVvY1RpY2hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThoiGianLamViec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvaUdpYW5MYW1WaWVjXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThoiGianLamViec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvaUdpYW5MYW1WaWVjXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThoiGianLamViec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvaUdpYW5MYW1WaWVjXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThoiGianLamViec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvaUdpYW5MYW1WaWVjXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThoiGianLamViec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvaUdpYW5MYW1WaWVjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/ThongKeNam - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxUaG9uZ0tlTmFtIC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeNam/ThongKeNam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZU5hbVxUaG9uZ0tlTmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/ThongKeThang - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXFRob25nS2VUaGFuZyAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/ThongKeThang/ThongKeThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVRoYW5nXFRob25nS2VUaGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TonGiao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uR2lhb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TonGiao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uR2lhb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TonGiao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uR2lhb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TonGiao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uR2lhb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TonGiao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uR2lhb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TrinhDo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJpbmhEb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TrinhDo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJpbmhEb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TrinhDo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJpbmhEb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TrinhDo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJpbmhEb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/TrinhDo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJpbmhEb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/BangCap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEJhbmdDYXBcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/BangCap/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEJhbmdDYXBcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/BangCap/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEJhbmdDYXBcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/BangCap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEJhbmdDYXBcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/BangCap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEJhbmdDYXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ChuyenMon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENodXllbk1vblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ChuyenMon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENodXllbk1vblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ChuyenMon/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENodXllbk1vblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ChuyenMon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENodXllbk1vblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ChuyenMon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENodXllbk1vblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/CongTac/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENvbmdUYWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/CongTac/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENvbmdUYWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/CongTac/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENvbmdUYWNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/CongTac/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENvbmdUYWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/CongTac/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXENvbmdUYWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/HopDong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvcERvbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/HopDong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvcERvbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/HopDong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvcERvbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/HopDong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvcERvbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/HopDong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEhvcERvbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhenThuong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtoZW5UaHVvbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhenThuong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtoZW5UaHVvbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhenThuong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtoZW5UaHVvbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhenThuong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtoZW5UaHVvbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhenThuong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtoZW5UaHVvbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhoanTru/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtob2FuVHJ1XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhoanTru/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtob2FuVHJ1XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhoanTru/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtob2FuVHJ1XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhoanTru/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtob2FuVHJ1XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/KhoanTru/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEtob2FuVHJ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Luong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEx1b25nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Luong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEx1b25nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Luong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEx1b25nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Luong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEx1b25nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Luong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXEx1b25nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NghiPhep/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5naGlQaGVwXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NghiPhep/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5naGlQaGVwXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NghiPhep/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5naGlQaGVwXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NghiPhep/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5naGlQaGVwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NghiPhep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5naGlQaGVwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NguoiDungChung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5ndW9pRHVuZ0NodW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Index - dutru.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXEluZGV4IC0gZHV0cnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXE5oYW5WaWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/PhuCap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFBodUNhcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/PhuCap/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFBodUNhcFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/PhuCap/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFBodUNhcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/PhuCap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFBodUNhcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/PhuCap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFBodUNhcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThoiGianLamViec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob2lHaWFuTGFtVmllY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThoiGianLamViec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob2lHaWFuTGFtVmllY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThoiGianLamViec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob2lHaWFuTGFtVmllY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThoiGianLamViec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob2lHaWFuTGFtVmllY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThoiGianLamViec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob2lHaWFuTGFtVmllY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/ThongKeNam - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cVGhvbmdLZU5hbSAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeNam/ThongKeNam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VOYW1cVGhvbmdLZU5hbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/ThongKeThang - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xUaG9uZ0tlVGhhbmcgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/ThongKeThang/ThongKeThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRob25nS2VUaGFuZ1xUaG9uZ0tlVGhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/TrinhDo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRyaW5oRG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/TrinhDo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRyaW5oRG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/TrinhDo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRyaW5oRG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/TrinhDo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRyaW5oRG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/TrinhDo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFRyaW5oRG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/CongTac/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1RhY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/CongTac/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1RhY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/CongTac/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1RhY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/CongTac/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1RhY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/CongTac/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1RhY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Home/Forbidden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JiaWRkZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/HopDong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/HopDong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/HopDong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/HopDong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/HopDong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Luong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Luong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Luong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Luong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Luong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NghiPhep/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmdoaVBoZXBcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NghiPhep/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmdoaVBoZXBcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NghiPhep/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmdoaVBoZXBcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NghiPhep/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmdoaVBoZXBcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NghiPhep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmdoaVBoZXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NguoiDungChung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmd1b2lEdW5nQ2h1bmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NhanVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0clzcv2e8u
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Areas/QuanLy/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUXVhbkx5XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-x2op39pc2n
+
+[D:/Source quản lý nhân sự/QLNS/QLNS/QLNS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rvcotgry9g

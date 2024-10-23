@@ -1,0 +1,128 @@
+﻿@model QLNS.Models.Luong
+
+@{
+    ViewData["Title"] = "Thông Tin Lương Nhân Viên";
+}
+
+<div class="card">
+    <h2 class="card-header text-center text-light bg-dark" style="font-weight: 500;font-family:none;">@ViewData["Title"]</h2>
+    <br />
+    <div class="card-body" style="display: flex; ">
+        <div class="d-block flex-shrink-0" style="align-items:center;padding-right: 20px;">
+            <img class="rounded-circle" style="margin-left:138px" src="~/uploads/@Model.NhanVien.HinhAnh" width="80" />
+            <dl class="row" style="margin-left:130px">
+                <dt class="col-sm-0" style="    margin-left: -5px;">
+                    @Html.DisplayNameFor(model => model.NhanVien.MaNhanVien):
+                </dt>
+                <dd class="col-sm-9" style="margin-left:2px">
+                    @Html.DisplayFor(model => model.NhanVien.MaNhanVien)
+                </dd>
+            </dl>
+        </div>
+        <dl class="row" style="margin-left: calc(-0.5* var(--bs-gutter-x));">
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NhanVienID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NhanVien.TenNhanVien)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ThangID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ThangID)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ThoiGianLamViecID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ThoiGianLamViec.SoNgayCong)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ChucVuID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ChucVu.TenChucVu)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.LuongCoBanID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ChucVu.LuongCoBan)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.PhuCapID)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.PhuCap.TenPhuCap)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.PhuCap.SoTienPhuCap)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.PhuCap.SoTienPhuCap)
+            </dd>
+
+
+
+        </dl>
+
+        <dl class="row" style="margin-left: calc(-1* var(--bs-gutter-x));">
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.LyDoKhoanTruID)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.KhoanTru.LyDoKhoanTru)
+            </dd>
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.KhoanTruID)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.KhoanTru.SoTienKhoanTru)
+            </dd>
+
+
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.LyDoKhenThuongID)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.KhenThuong.LyDoKhenThuong)
+            </dd>
+
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.KhenThuongID)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.KhenThuong.TienThuong)
+            </dd>
+
+
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.PhuongThucThanhToan)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.PhuongThucThanhToan)
+            </dd>
+
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.NgayThanhToan)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.NgayThanhToan)
+            </dd>
+
+            <dt class="col-sm-5">
+                @Html.DisplayNameFor(model => model.TongThuNhap)
+            </dt>
+            <dd class="col-sm-7">
+                @Html.DisplayFor(model => model.TongThuNhap)
+            </dd>
+        </dl>
+    </div>
+
+    <br />
+    <br />
+</div>

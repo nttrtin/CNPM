@@ -1,0 +1,31 @@
+﻿@model QLNS.Models.TonGiao
+
+@{
+    ViewData["Title"] = "Sửa Tôn Giáo";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="ID" />
+            <div class="mb-3">
+                <label asp-for="MaTonGiao" class="control-label"></label>
+                <input asp-for="MaTonGiao" class="form-control" />
+                <span asp-validation-for="MaTonGiao" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenTonGiao" class="control-label"></label>
+                <input asp-for="TenTonGiao" class="form-control" />
+                <span asp-validation-for="TenTonGiao" class="text-danger"></span>
+            </div>
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Cập nhật</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
