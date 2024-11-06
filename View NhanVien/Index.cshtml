@@ -1,0 +1,81 @@
+﻿@model QLNS.Models.NguoiDung_ChinhSua
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContextAccessor;
+@{
+    ViewData["Title"] = "Hồ sơ người dùng";
+}
+<h1 class="card-header text-center text-light bg-dark" style="font-weight: 500;font-family:none;">@ViewData["Title"]</h1>
+<br />
+<div class="container pb-5 mb-2 mb-md-4">
+    <div class="row">
+
+        <section class="col-lg-8" style="margin-left:18%">
+            <div class="d-none d-lg-flex justify-content-between align-items-center pt-lg-3 pb-4 pb-lg-5 mb-lg-3">
+                <h6 class="fs-base text-light mb-0">Cập nhật chi tiết hồ sơ của bạn: </h6>
+                <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Home" asp-action="Logout">
+                    <i class="ci-sign-out me-2"></i>Đăng xuất
+                </a>
+            </div>
+            @if (TempData["ThongBao"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    <i class="ci-check-circle me-2"></i>@TempData["ThongBao"]
+                </div>
+            }
+            <form asp-action="CapNhatHoSo" class="needs-validation" novalidate>
+                <input type="hidden" asp-for="ID" />
+        
+                <div class="row gx-4 gy-3">
+                    <div class="col-sm-6">
+                        <label asp-for="EmailID" class="form-label"></label>
+                        <input asp-for="EmailID" class="form-control" />
+                        <span asp-validation-for="EmailID" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="SDTID" class="form-label"></label>
+                        <input asp-for="SDTID" class="form-control" />
+                        <span asp-validation-for="SDTID" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="DiaChiID" class="form-label"></label>
+                        <input asp-for="DiaChiID" class="form-control" />
+                        <span asp-validation-for="DiaChiID" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="TenDangNhap" class="form-label"></label>
+                        <input asp-for="TenDangNhap" class="form-control" readonly required />
+                        <span asp-validation-for="TenDangNhap" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="MatKhau" class="form-label"></label>
+                        <div class="password-toggle">
+                            <input asp-for="MatKhau" class="form-control" />
+                            <label class="password-toggle-btn" aria-label="Hiện/ẩn mật khẩu">
+                          
+                                <span class="password-toggle-indicator"></span>
+                            </label>
+                        </div>
+                        <span asp-validation-for="MatKhau" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label asp-for="XacNhanMatKhau" class="form-label"></label>
+                        <div class="password-toggle">
+                            <input asp-for="XacNhanMatKhau" class="form-control" />
+                            <label class="password-toggle-btn" aria-label="Hiện/ẩn mật khẩu">
+                            
+                                <span class="password-toggle-indicator"></span>
+                            </label>
+                        </div>
+                        <span asp-validation-for="XacNhanMatKhau" class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="col-12">
+                        <hr class="mt-2 mb-3">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          
+                            <button class="btn btn-primary mt-3 mt-sm-0" type="submit"><i class="ci-check-circle me-2"></i>Cập nhật hồ sơ</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
