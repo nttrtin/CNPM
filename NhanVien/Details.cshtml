@@ -1,0 +1,132 @@
+﻿@model QLNS.Models.NhanVien
+
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+
+<h1 >Chi tiết nhân viên </h1>
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"]</h5>
+    <br />
+    <div class="card-body" style="display: flex; ">
+        <div class="d-block flex-shrink-0" style="align-items:center;">
+            <img class="rounded-circle" style="margin-left:50px" src="~/uploads/@Model.HinhAnh" width="80" />
+            <dl class="row">
+                <dt class="col-sm-0" style="text-align:center">
+                    @Html.DisplayNameFor(model => model.MaNhanVien):
+                </dt>
+                <dd class="col-sm-0" style="text-align:center">
+                    @Html.DisplayFor(model => model.MaNhanVien)
+                </dd>
+            </dl>
+        </div>
+        <dl class="row" style="margin-left: calc(-0.5* var(--bs-gutter-x));">
+            <dt class="col-sm-4">
+                Họ Và Tên
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.TenNhanVien)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NgaySinh):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NgaySinh)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.GioiTinh):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.GioiTinh)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Email):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.CanCuocCongDan):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.CanCuocCongDan)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NgayCapCanCuoc):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NgayCapCanCuoc)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NoiCapCanCuoc):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NoiCapCanCuoc)
+            </dd>
+        </dl>
+
+        <dl class="row" style="margin-left: calc(1* var(--bs-gutter-x));">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.DiaChi):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.DiaChi)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.TrinhDoID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.TrinhDo.TenTrinhDo)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.PhongBanId):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.PhongBan.TenPhongBan)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ChucVuID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ChucVu.TenChucVu)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.BangCapID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.BangCap.TenBangCap)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ChuyenMonID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ChuyenMon.TenChuyenMon)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.QuocTichID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.QuocTich.TenQuocTich)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.TonGiaoID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.TonGiao.TenTonGiao)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.DanTocID):
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.DanToc.TenDanToc)
+            </dd>
+        </dl>
+    </div>
+    <div class="mb-0 text-center">
+        <button type="submit" class="btn btn-primary"> <a asp-action="Edit" asp-route-id="@Model?.ID" style="color: white"><i class="fa-solid fa-floppy-disk text-white"></i> Cập nhật</a></button> hoặc <a asp-action="Index">Quay về danh sách</a>
+    </div>
+    <br />
+    <br />
+</div>
+
