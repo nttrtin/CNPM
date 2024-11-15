@@ -1,0 +1,38 @@
+﻿@model QLNS.Models.PhuCap
+
+@{
+    ViewData["Title"] = "Sửa Phụ Cấp";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"] </h5>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="ID" />
+            <div class="mb-3">
+                <label asp-for="MaPhuCap" class="control-label"></label>
+                <input asp-for="MaPhuCap" class="form-control" />
+                <span asp-validation-for="MaPhuCap" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TenPhuCap" class="control-label"></label>
+                <input asp-for="TenPhuCap" class="form-control" />
+                <span asp-validation-for="TenPhuCap" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="SoTienPhuCap" class="control-label"></label>
+                <input asp-for="SoTienPhuCap" class="form-control" />
+                <span asp-validation-for="SoTienPhuCap" class="text-danger"></span>
+            </div>
+          
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Cập nhật</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
