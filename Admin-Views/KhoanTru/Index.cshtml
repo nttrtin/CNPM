@@ -1,0 +1,47 @@
+﻿@model IEnumerable<QLNS.Models.KhoanTru>
+
+@{
+    ViewData["Title"] = "Khoản Trừ";
+}
+<div class="card">
+    <h5 class="card-header text-center">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%" class="text-center">Stt</th>
+                    <th class="text-center">   @Html.DisplayNameFor(model => model.MaKhoanTru)</t>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.LyDoKhoanTru)</th>
+                    <th class="text-center">  @Html.DisplayNameFor(model => model.SoTienKhoanTru)</th>
+
+                    <th width="5%" class="text-center">Sửa</th>
+                    <th width="5%" class="text-center">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@stt</td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.MaKhoanTru)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.LyDoKhoanTru)
+                        </td>
+                        <td class="text-center">@item.SoTienKhoanTru.ToString("N0") VND</td>
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@item.ID"><i class="fa-light fa-pen-to-square"></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@item.ID"><i class="fa-light fa-trash-can text-danger"></a></td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

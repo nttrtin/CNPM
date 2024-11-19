@@ -1,0 +1,86 @@
+﻿@model QLNS.Models.ThoiGianLamViec
+
+@{
+    ViewData["Title"] = "Thêm Thời Gian Làm Việc";
+}
+<div class="card">
+    <h5 class="card-header">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <form asp-action="Create">
+
+            <div class="mb-3">
+                <label asp-for="NhanVienID" class="control-label"></label>
+                <select asp-for="NhanVienID" class="form-control" asp-items="ViewBag.NhanVienID" id="NhanVienID"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Thang" class="control-label"></label>
+                <select asp-for="Thang" id="selectMonth" class="form-control">
+                    <option value="1">Tháng 1</option>
+                    <option value="2">Tháng 2</option>
+                    <option value="3">Tháng 3</option>
+                    <option value="4">Tháng 4</option>
+                    <option value="5">Tháng 5</option>
+                    <option value="6">Tháng 6</option>
+                    <option value="7">Tháng 7</option>
+                    <option value="8">Tháng 8</option>
+                    <option value="9">Tháng 9</option>
+                    <option value="10">Tháng 10</option>
+                    <option value="11">Tháng 11</option>
+                    <option value="12">Tháng 12</option>
+                </select>
+                <span asp-validation-for="Thang" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="SoNgayNghiID" class="control-label"></label>
+                <input asp-for="SoNgayNghiID" class="form-control" id="SoNgayNghiID" readonly>
+                <span asp-validation-for="SoNgayNghiID" class="text-danger"></span>
+            </div>
+
+     
+
+            <div class="mb-0">
+                <button type="submit" class="btn btn-primary"><i class="fa-light fa-floppy-disk"></i> Thêm mới</button> hoặc <a asp-action="Index">Quay về danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Gọi hàm getSoNgayNghi khi chọn tháng
+        $("#selectMonth").change(function () {
+            getSoNgayNghi();
+        });
+
+        $("#NhanVienID").change(function () {
+            // Xóa giá trị của dropdown tháng khi chọn một nhân viên mới
+            $("#selectMonth").val("");
+        });
+
+        function getSoNgayNghi() {
+            var nhanVienID = document.getElementById("NhanVienID").value;
+            var selectedMonth = document.getElementById("selectMonth").value;
+
+            // Gửi yêu cầu AJAX đến phương thức GetSoNgayNghi trong controller
+            $.ajax({
+                url: "/Admin/ThoiGianLamViec/GetSoNgayNghi",
+                type: "GET",
+                data: { NhanVienID: nhanVienID, selectedMonth: selectedMonth },
+                success: function (data) {
+                    if (data != null) {
+                        $("#SoNgayNghiID").val(data.soNgayNghi || 0); // Cập nhật giá trị của input
+                    } else {
+                        $("#SoNgayNghiID").val("0");
+                    }
+                },
+                error: function () {
+                    $("#SoNgayNghiID").val("Đã xảy ra lỗi khi lấy dữ liệu");
+                }
+            });
+        }
+    </script>
+}
